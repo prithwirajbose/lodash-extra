@@ -1,8 +1,9 @@
 const _ = require("lodash");
 class LodashExtra extends _ {
-  constructor(){
+  constructor() {
     super();
   }
 }
+
 
 module.exports = LodashExtra;
