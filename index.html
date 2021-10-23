@@ -8,7 +8,9 @@
 	<meta name="robots" content="index,follow">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"><link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/languages/go.min.js"></script>
 	<style type="text/css">
 		body {
 			font-family: 'Roboto', sans-serif;
@@ -32,20 +34,23 @@
 		<article class="aricle">
 			<h2 class="articleTitle">For Web Applications</h2>
 			<p>Include the following line inside HTML <code>&lt;head&gt;</code> or <code>&lt;body&gt;</code></p>
-			<pre><code>&lt;script type=&quot;text/javascript&quot; scr=&quot;https://raw.githubusercontent.com/prithwirajbose/lodash-extra/main/index.js&quot;&gt;</code></pre>
+			<pre class="language-html"><code>&lt;script type=&quot;text/javascript&quot; scr=&quot;https://raw.githubusercontent.com/prithwirajbose/lodash-extra/main/index.js&quot;&gt;</code></pre>
 		</article>
 		<article class="aricle">
 			<h2 class="articleTitle">Getting Started</h2>
 			<h2 id="for-nodejs-application">For NodeJS Application</h2>
 			<p>Run the following command in Command Prompt to install the library.</p>
-			<pre><code>$ npm i --save lodash-extra</code></pre>
+			<pre class="language-bash"><code>$ npm i --save lodash-extra</code></pre>
 			<p>Optionally, you can include the package as dependency in your NodeJS project.</p>
 			<p>Then in your NodeJS code, add the following line to import the library.</p>
-			<pre><code>const _ = require(&quot;lodash-extra&quot;);
+			<pre class="language-javascript"><code>const _ = require(&quot;lodash-extra&quot;);
 			</code></pre>
 		</article>
 	</section>
 	<footer>
 	</footer>
+	<script type="text/javascript">
+		hljs.highlightAll();
+	</script>
 </body>
 </html>
