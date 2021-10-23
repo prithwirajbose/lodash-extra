@@ -1,2 +1,2 @@
-# node-arrayutils
-Source code for node-arrayutils npm library
+# lodash-extra
+Source code for lodash-extra npm library
