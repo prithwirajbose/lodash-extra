@@ -1,0 +1,24 @@
+{
+  "name": "lodash-extra",
+  "version": "1.0.0",
+  "description": "An extended version of the popular lodash npm library, with lot of exciting utility functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prithwirajbose/lodash-extra.git"
+  },
+  "keywords": ["lodash", "lodash extra", "lodash extended", "object utils", "json utils", "string utils", "number utils", "array utils", "boolen utils", "function utils"],
+  "author": "Prithwiraj Bose <sribasu@gmail.com> (https://sribasu.com)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/prithwirajbose/lodash-extra/issues"
+  },
+  "homepage": "https://github.com/prithwirajbose/lodash-extra#readme",
+  "funding": "https://www.buymeacoffee.com/sribasu",
+  "dependencies": {
+    "lodash": "latest"
+  }
+}
