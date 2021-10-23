@@ -1,2 +1,2 @@
 # lodash-extra
-Source code for lodash-extra npm library
+Source code for lodash-extra JavaScript library
