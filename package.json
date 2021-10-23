@@ -4,7 +4,8 @@
   "description": "An extended version of the popular lodash npm library, with lot of exciting utility functions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.ts --out-file dist/lodash-extra.js"
   },
   "repository": {
     "type": "git",
