@@ -5,6 +5,16 @@
 <p>An extended version of the popular lodash library, with lot of exciting extra utility functions</p>
 
 
+- [lodash-extra](#lodash-extra)
+  - [\_](#_)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [\_.isNumericString(str) ⇒](#_isnumericstringstr-)
+    - [\_.isBlank(val) ⇒](#_isblankval-)
+    - [\_.isNotBlank(val) ⇒](#_isnotblankval-)
+
+
+
 ### Installation
 
 ```
@@ -21,15 +31,6 @@ console.log(_.isBlank("Hello World"));
 ```
 
 
-
-
-- [lodash-extra](#lodash-extra)
-  - [\_](#_)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [\_.isNumericString(str) ⇒](#_isnumericstringstr-)
-    - [\_.isBlank(val) ⇒](#_isblankval-)
-    - [\_.isNotBlank(val) ⇒](#_isnotblankval-)
 
 <a name="_.isNumericString"></a>
 
