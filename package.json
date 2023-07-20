@@ -1,6 +1,6 @@
 {
     "name": "lodash-extra",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An extended version of the popular lodash library, with lot of exciting extra utility functions",
     "main": "./index.js",
     "scripts": {
