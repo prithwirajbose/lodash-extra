@@ -1,27 +1,26 @@
 # lodash-extra
 <a name="_"></a>
 
-## \_
 <p>An extended version of the popular lodash library, with lot of exciting extra utility functions</p>
 
 
 - [lodash-extra](#lodash-extra)
-  - [\_](#_)
-    - [Installation](#installation)
-    - [Usage](#usage)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Functions](#functions)
     - [\_.isNumericString(str) ⇒](#_isnumericstringstr-)
     - [\_.isBlank(val) ⇒](#_isblankval-)
     - [\_.isNotBlank(val) ⇒](#_isnotblankval-)
 
 
 
-### Installation
+## Installation
 
 ```
 npm i lodash-extra
 ```
 
-### Usage
+## Usage
 
 ```
 const _ = require('lodash-extra');
@@ -30,7 +29,7 @@ console.log(_.isBlank("Hello World"));
 
 ```
 
-
+## Functions
 
 <a name="_.isNumericString"></a>
 
