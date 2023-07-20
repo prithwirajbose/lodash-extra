@@ -30,7 +30,7 @@
     "bugs": {
         "url": "https://github.com/prithwirajbose/lodash-extra/issues"
     },
-    "homepage": "https://github.com/prithwirajbose/lodash-extra#readme",
+    "homepage": "https://github.com/prithwirajbose/lodash-extra",
     "funding": "https://prithwirajbose.github.io/lodash-extra/#donate",
     "dependencies": {
         "@babel/runtime": "^7.22.6",

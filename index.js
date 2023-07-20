@@ -1,8 +1,8 @@
 const _ = require("lodash");
 
 /**
- * @author Prithwiraj Bose <sribasu@gmail.com>
- * @classdesc An extended version of the Lodash library with all the missing features
+ * @author Prithwiraj Bose <https://sribasu.com>
+ * @classdesc An extended version of the popular lodash library, with lot of exciting extra utility functions
  * @constructor
  */
 const _ext = {
