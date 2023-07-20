@@ -1,17 +1,15 @@
-# lodash-extra
 <a name="_ext"></a>
 
 ## \_ext
-<p>An extended version of the Lodash library with all the missing features</p>
+<p>An extended version of the popular lodash library, with lot of exciting extra utility functions</p>
 
 **Kind**: global class
-**Author**: Prithwiraj Bose <sribasu@gmail.com>
+**Author**: Prithwiraj Bose <https://sribasu.com>
 
-- [lodash-extra](#lodash-extra)
-  - [\_ext](#_ext)
-    - [\_ext.isNumericString(str) ⇒](#_extisnumericstringstr-)
-    - [\_ext.isBlank(val) ⇒](#_extisblankval-)
-    - [\_ext.isNotBlank(val) ⇒](#_extisnotblankval-)
+- [\_ext](#_ext)
+  - [\_ext.isNumericString(str) ⇒](#_extisnumericstringstr-)
+  - [\_ext.isBlank(val) ⇒](#_extisblankval-)
+  - [\_ext.isNotBlank(val) ⇒](#_extisnotblankval-)
 
 <a name="_ext.isNumericString"></a>
 
