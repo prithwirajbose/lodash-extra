@@ -11,6 +11,7 @@
     - [\_.isNumericString(str) ⇒](#_isnumericstringstr-)
     - [\_.isBlank(val) ⇒](#_isblankval-)
     - [\_.isNotBlank(val) ⇒](#_isnotblankval-)
+    - [\_ext.csvToArray(csvString, separator, nonAssociative, noHeader) ⇒](#_extcsvtoarraycsvstring-separator-nonassociative-noheader-)
 
 
 
@@ -67,3 +68,18 @@ of a valid number or not. Float and Int both types are considered valid numbers.
 | Param | Type | Description |
 | --- | --- | --- |
 | val | <code>any</code> | <p>Input value</p> |
+
+<a name="_ext.csvToArray"></a>
+
+### _ext.csvToArray(csvString, separator, nonAssociative, noHeader) ⇒
+Converts a given `csvString` into an array
+
+**Kind**: static method of [<code>\_ext</code>](#_ext)
+**Returns**: array
+
+| Param | Type | Description |
+| --- | --- | --- |
+| csvString | <code>string</code> | CSV String - Required |
+| separator | <code>string</code> | CSV Separator - Optional, default comma (,) |
+| nonAssociative | <code>boolean</code> | Flag to not create an associate array - Optional, default false |
+| noHeader | <code>boolean</code> | Flag to specify if the column header exists in the `csvSring` - Optional, default false |

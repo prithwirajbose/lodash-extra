@@ -56,3 +56,20 @@ describe('Testing isNotBlank function', function() {
         done();
     });
 });
+
+describe('Testing csvToArray function', function() {
+    it('success scenario 1', function(done) {
+        expect(_.csvToArray('"id","name"\n1,"Prithwiraj"\n2,"Mark"').length).to.equal(3);
+        done();
+    });
+
+    it('success scenario 2', function(done) {
+        expect(_.csvToArray('"id","name"\n1,"Prithwiraj"\n2,"Mark"').length).to.equal(3);
+        done();
+    });
+
+    it('error scenario 1', function(done) {
+        expect(_.isNotBlank("")).to.equal(false);
+        done();
+    });
+});

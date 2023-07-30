@@ -30,7 +30,7 @@
     
         <h2><span class="attribs"><span class="type-signature"></span></span>_ext<span class="signature">()</span><span class="type-signature"></span></h2>
         
-            <div class="class-description"><p>An extended version of the popular lodash library, with lot of exciting extra utility functions</p></div>
+            <div class="class-description">An extended version of the popular lodash library, with lot of exciting extra utility functions</div>
         
     
 </header>
@@ -156,6 +156,222 @@
     
 
     
+    <h4 class="name" id=".csvToArray"><span class="type-signature">(static) </span>csvToArray<span class="signature">(csvString, separator, nonAssociative, noHeader)</span><span class="type-signature"></span></h4>
+    
+
+    
+
+
+
+<div class="description">
+    Converts a given `csvString` into an array
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>csvString</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">CSV String - Required</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>separator</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">CSV Separator - Optional, default comma (,)</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>nonAssociative</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Flag to not create an associate array - Optional, default false</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>noHeader</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Flag to specify if the column header exists in the `csvSring` - Optional, default false</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line46">line 46</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    array
+</div>
+
+
+
+    
+
+
+
+
+
+        
+            
+
+    
+
+    
     <h4 class="name" id=".isBlank"><span class="type-signature">(static) </span>isBlank<span class="signature">(val)</span><span class="type-signature"></span></h4>
     
 
@@ -164,7 +380,7 @@
 
 
 <div class="description">
-    <p>Checks if the given <code>val</code> is either null or string which is blank or empty or contains only white spaces</p>
+    Checks if the given `val` is either null or string which is blank or empty or contains only white spaces
 </div>
 
 
@@ -216,7 +432,7 @@
 
             
 
-            <td class="description last"><p>Input value</p></td>
+            <td class="description last">Input value</td>
         </tr>
 
     
@@ -286,7 +502,7 @@
 
         
 <div class="param-desc">
-    <p>boolean</p>
+    boolean
 </div>
 
 
@@ -311,7 +527,7 @@
 
 
 <div class="description">
-    <p>Checks if the given <code>val</code> is string and not null or blank or empty or contains only white spaces</p>
+    Checks if the given `val` is string and not null or blank or empty or contains only white spaces
 </div>
 
 
@@ -363,7 +579,7 @@
 
             
 
-            <td class="description last"><p>Input value</p></td>
+            <td class="description last">Input value</td>
         </tr>
 
     
@@ -433,7 +649,7 @@
 
         
 <div class="param-desc">
-    <p>boolean</p>
+    boolean
 </div>
 
 
@@ -458,8 +674,7 @@
 
 
 <div class="description">
-    <p>Checks if the given <code>str</code> is a string representation
-of a valid number or not. Float and Int both types are considered valid numbers.</p>
+    Checks if the given `str` is a string representation of a valid number or not. Float and Int both types are considered valid numbers.
 </div>
 
 
@@ -511,7 +726,7 @@ of a valid number or not. Float and Int both types are considered valid numbers.
 
             
 
-            <td class="description last"><p>Inut string</p></td>
+            <td class="description last">Inut string</td>
         </tr>
 
     
@@ -581,7 +796,7 @@ of a valid number or not. Float and Int both types are considered valid numbers.
 
         
 <div class="param-desc">
-    <p>boolean</p>
+    boolean
 </div>
 
 
@@ -614,7 +829,7 @@ of a valid number or not. Float and Int both types are considered valid numbers.
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Fri Jul 21 2023 01:18:34 GMT+0530 (India Standard Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Mon Jul 31 2023 03:52:58 GMT+0530 (India Standard Time)
 </footer>
 
 <script> prettyPrint(); </script>

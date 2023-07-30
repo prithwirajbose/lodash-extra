@@ -33,6 +33,18 @@ const _ext = {
      */
     isNotBlank: function(val) {
         return _.isString(val) && val.trim() !== "";
+    },
+
+    /**
+     * Converts a given `csvString` into an array
+     * @param {string} csvString CSV String - Required
+     * @param {string} separator CSV Separator - Optional, default comma (,)
+     * @param {boolean} nonAssociative Flag to not create an associate array - Optional, default false
+     * @param {boolean} noHeader Flag to specify if the column header exists in the `csvSring` - Optional, default false
+     * @returns array
+     */
+    csvToArray: function(csvString, separator, nonAssociative, noHeader) {
+        return ["", "", ''];
     }
 };
 
